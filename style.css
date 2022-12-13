@@ -140,12 +140,12 @@ body{
 }
 @media (max-width: 768px) {
     .block{
-        width: 45vw;
+        width: 55vw;
     }
 }
 @media (max-width: 576px) {
     .block{
-        width: 75vw;
+        width: 85vw;
     }
 }
 @media (max-width: 400px) {
