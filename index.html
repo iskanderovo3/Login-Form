@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Raleway:ital,wght@0,200;0,300;1,200&display=swap"
+        rel="stylesheet">
+
+    <title>Login Form</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="block">
+
+        <!-- HEADER -->
+
+        <h1 class="block__heading">Login Form</h1>
+        <div class="btns">
+            <button class="block__btns__login-btn" id="login-btn">Login</button>
+            <button class="block__btns__signup-btn" id="signup-btn">Signup</button>
+        </div>
+
+        <!-- LOGIN -->
+
+        <form class="block__form" action="#">
+            <input class="block__form__email-address" type="email" placeholder="Email Address">
+            <input class="block__form__password" type="password" placeholder="Password">
+        </form>
+
+        <!-- SIGNUP -->
+
+        <form class="block__second__form" action="#">
+            <input class="block__second__form-general" type="text" placeholder="Name">
+            <input class="block__second__form-general" type="text" placeholder="Surname">
+            <input class="block__second__form-general" type="email" placeholder="Email Address">
+            <input class="block__second__form-general" type="password" placeholder="Password">
+        </form>
+
+        <!-- FOOTER -->
+
+        <p class="block__text">
+            <a class="block__text-link" href="#">Forgot password?</a>
+        </p>
+        <button class="block__login-btn">Login</button>
+        <div class="block__info">
+            <p class="block__info-text">Not a member? <span class="block__info__text-span">Signup now</span> </p>
+        </div>
+    </div>
+    </div>
+    
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
