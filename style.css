@@ -145,16 +145,16 @@ body{
 }
 @media (max-width: 576px) {
     .block{
-        width: 65vw;
+        width: 75vw;
     }
 }
 @media (max-width: 400px) {
     .block{
-        width: 85vw;
+        width: 95vw;
     }
 }
 @media (max-width: 330px) {
     .block{
-        width: 95vw;
+        width: 98vw;
     }
 }
